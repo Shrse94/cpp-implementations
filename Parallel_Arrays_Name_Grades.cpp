@@ -7,7 +7,6 @@
 */
 
 #include <iostream>
-#include <iomanip>
 #include <string>
 using namespace std;
 
@@ -53,4 +52,5 @@ void displayData(string names[], int grades[], int size) {
 		cout << "Student's Name: " << names[i] << endl;
 		cout << "Grade: " << grades[i] << "\n\n";
 	}
+
 }
